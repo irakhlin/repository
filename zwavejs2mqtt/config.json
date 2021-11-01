@@ -3,7 +3,7 @@
   "version": "0.27.0",
   "slug": "zwavejs2mqtt",
   "description": "Fully configurable Z-Wave JS to MQTT gateway and control panel",
-  "url": "https://github.com/hassio-addons/addon-zwavejs2mqtt",
+  "url": "https://github.com/irakhlin/addon-zwavejs2mqtt",
   "ingress": true,
   "ingress_stream": true,
   "panel_title": "Z-Wave JS",
@@ -38,5 +38,5 @@
   "ports_description": {
     "3000/tcp": "Z-Wave JS communication"
   },
-  "image": "ghcr.io/hassio-addons/zwavejs2mqtt/{arch}"
+  "image": "ghcr.io/irakhlin/zwavejs2mqtt/{arch}"
 }
